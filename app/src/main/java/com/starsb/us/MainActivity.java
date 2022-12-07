@@ -26,11 +26,11 @@ public class MainActivity extends AppCompatActivity {
 
         web = findViewById(R.id.webView);
         WebSettings webSettings = web.getSettings();
-        webSettings.setJavaScriptEnabled(true);
+      //  webSettings.setJavaScriptEnabled(true);
         web.setWebViewClient(new Callback());
         web.getSettings().setLoadWithOverviewMode(true);
         web.getSettings().setUseWideViewPort(true);
-        web.loadUrl("https://starsb.us/");
+        web.loadUrl("https://students.must.ac.ke/");
 
     }
 

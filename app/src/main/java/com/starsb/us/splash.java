@@ -9,11 +9,13 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.VideoView;
 
 public class splash extends AppCompatActivity {
 
     VideoView videoView;
+    ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,7 @@ public class splash extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
 
         videoView = findViewById(R.id.videoView);
+        imageView = findViewById(R.id.imageView);
 
         String path = "android.resource://com.starsb.us/"+R.raw.vd;
 

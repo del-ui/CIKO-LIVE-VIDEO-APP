@@ -27,7 +27,7 @@ public class splash extends AppCompatActivity {
 
         videoView = findViewById(R.id.videoView);
 
-        String path = "android.resource://com.starsb.us/"+R.raw.video;
+        String path = "android.resource://com.starsb.us/"+R.raw.vd;
 
         Uri uri = Uri.parse(path);
         videoView.setVideoURI(uri);
